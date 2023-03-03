@@ -1,0 +1,26 @@
+endpoints 
+    /products/createProduct/?clientId=
+    /products/getAllProducts/?clientId=
+    /products/deleteProductById/?clientId= &productId= &status=
+    /products/updateProduct/?clientId=
+    /products/getActiveProducts?clientId=
+    /products/getProductDefById/<productId>?clientId=
+
+    /products/getProductFromCSV/?clientId=
+
+    /attributes/createAttribute/?clientId=
+    /attributes/getAllAttributes/?clientId=
+
+    /attributeset/getAllAttributeSets/?clientId=
+    /attributeset/createAttributeSet/?clientId=
+    /attributeset/deleteAttributeSetById/?clientId= &attrSetId=
+    /attributeset/updateAttributeSetById/?clientId=
+
+    /categories/createCategory/?clientId=
+    /categories/getAllCategories/?clientId=
+    /categories/deleteCategoryById/?clientId= &categoryId=
+    /categories/updatecategory/?clientId=
+
+    /cart/addToCart/?clientId=
+    /cart/getCart/?clientId= &userId=
+    /cart/removeCartProduct/?clientId= &userId= &productId= &cartId=
